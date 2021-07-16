@@ -7,7 +7,9 @@ import { createStore } from "redux";
 import {Provider} from "react-redux";
 
 const initialState = {
-
+  operations : {
+    
+  }
 }
 
 const store = createStore(function (state = initialState, action) {
