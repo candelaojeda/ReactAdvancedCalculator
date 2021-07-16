@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React, {useState} from "react";
 import './App.css';
+import Operations from "./Operations";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="App">
+        <form id="clean" name="" method="post">
+          <h1>ADVANCED CALCULATOR WITH REACT</h1>
+          <label>Ingrese un número:</label>
+          <input type="number" name="" id="valor1" placeholder="Número 1" required step="any"/>
+          <label>Ingrese otro número:</label>
+          <input type="number" name="" id="valor2" placeholder="Número 2" required step="any"/>
+        </form>
+      </div>
     </div>
   );
 }
