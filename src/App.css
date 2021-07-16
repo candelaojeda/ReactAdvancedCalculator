@@ -1,37 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&display=swap');
-*{
-  font-family: 'Encode Sans SC', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&display=swap");
+* {
+  font-family: "Encode Sans SC", sans-serif;
 }
-.App{
+.App {
   margin: 8px;
   padding: 8px;
 }
-body{
+body {
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(to left, #e492cf, #940551);
 }
-.title{
+.title {
   background: #520930;
   color: #e492cf;
   letter-spacing: 3px;
   text-align: center;
 }
-button{
+button {
   background-color: #520930;
   color: #e492cf;
   border: none;
   cursor: pointer;
 }
-.inputsNumber{
+.inputsNumber {
   font-size: 20px;
   padding: 8px;
   margin: 8px;
   border: none;
   border-radius: 5px;
 }
-h1{
+h1 {
   background: #520930;
   color: #e492cf;
   letter-spacing: 3px;
